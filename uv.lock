@@ -1,0 +1,26 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "a"
+version = "0.1.0"
+source = { git = "https://github.com/alfman99/private-repo-a.git#7c8b575e5acf16e9251f192db0e9f3191fdbe7c6" }
+dependencies = [
+    { name = "b" },
+]
+
+[[package]]
+name = "b"
+version = "0.1.0"
+source = { git = "https://github.com/alfman99/private-repo-b.git#8ccefb27634c46538ccb7a7771e86fab22b25895" }
+
+[[package]]
+name = "main"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "a" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "a", git = "https://github.com/alfman99/private-repo-a.git" }]
