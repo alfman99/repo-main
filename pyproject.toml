@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-a = { git = "https://demo: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@github.com/alfman99/private-repo-a.git" }
+a = { git = "https://demo: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@github.com/alfman99/private-repo-a.git" }
