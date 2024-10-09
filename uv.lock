@@ -4,7 +4,7 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { git = "https://github.com/alfman99/private-repo-a.git#ff4954fd87e8b5b0e0eacabd5fe3a958dc0166bf" }
+source = { git = "https://github.com/alfman99/private-repo-a.git#290adae0be78ed19e27e0c9c72de467914eefc76" }
 dependencies = [
     { name = "b" },
 ]
@@ -12,7 +12,7 @@ dependencies = [
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { git = "https://github.com/alfman99/private-repo-b.git#290adae0be78ed19e27e0c9c72de467914eefc76" }
+source = { git = "https://github.com/alfman99/private-repo-b.git#8ccefb27634c46538ccb7a7771e86fab22b25895" }
 
 [[package]]
 name = "main"
