@@ -12,7 +12,7 @@ dependencies = [
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { git = "https://github.com/alfman99/private-repo-b.git#8ccefb27634c46538ccb7a7771e86fab22b25895" }
+source = { git = "https://github.com/alfman99/private-repo-b.git#290adae0be78ed19e27e0c9c72de467914eefc76" }
 
 [[package]]
 name = "main"
