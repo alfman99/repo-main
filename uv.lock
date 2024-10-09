@@ -4,7 +4,7 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { git = "https://github.com/alfman99/private-repo-a.git#7c8b575e5acf16e9251f192db0e9f3191fdbe7c6" }
+source = { git = "https://github.com/alfman99/private-repo-a.git#ff4954fd87e8b5b0e0eacabd5fe3a958dc0166bf" }
 dependencies = [
     { name = "b" },
 ]
